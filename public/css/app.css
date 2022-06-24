@@ -8,30 +8,56 @@ ul {
   list-style: none;
 }
 
+img {
+  width: 100%;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
 header .logo {
   text-align: center;
 }
-
 header .logo img {
   width: 200px;
 }
-
 header .menu {
   display: flex;
   justify-content: center;
 }
-
 header .menu li {
   margin: 0 1rem;
   padding: 0.5rem;
 }
-
 header .menu li a {
   text-decoration: none;
   color: inherit;
 }
-
 header .menu li.active {
   background-color: #c3e4fb;
 }
 
+.pasta {
+  background-image: url("../images/fondo-pag-speciali.jpg");
+}
+.pasta .pasta-section h2 {
+  padding: 1rem 0;
+  color: #002d75;
+  text-transform: uppercase;
+}
+.pasta .pasta-section .pasta-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pasta .pasta-section .pasta-list .pasta-card {
+  width: calc(33.3333333333% - 1rem);
+  margin: 0.5rem;
+  background-color: white;
+  text-align: center;
+  padding: 0.2rem;
+}
+.pasta .pasta-section .pasta-list .pasta-card h4 {
+  color: gray;
+}

@@ -1,0 +1,30 @@
+.pasta {
+    background-image: url("../images/fondo-pag-speciali.jpg");
+
+    .pasta-section {
+
+        h2 {
+            padding: 1rem 0;
+            color: $secondary_color;
+            text-transform: uppercase;
+        }
+
+        .pasta-list {
+            display: flex;
+            flex-wrap: wrap;
+
+            .pasta-card {
+                width: calc(100% / 3 - 1rem);
+                margin: .5rem;
+                background-color: white;
+                text-align: center;
+                padding: .2rem;
+
+                h4 {
+                    color: gray;
+                }
+            }
+
+        }
+    }
+}
